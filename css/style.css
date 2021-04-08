@@ -47,8 +47,11 @@
 
 /* home page */
 
-.hover-img {
-    margin-top: 50px;
+.character {
+    vertical-align: middle;
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
 }
 
 /* about page */
@@ -73,9 +76,3 @@
     font-size: 32px;
 
 /* portofolio page */
-
-.jumbotron-fluid .project {
-    margin-top: 150px;
-    font-weight: 150px;
-    font-size: 32px;
-    margin-bottom: 20px;
