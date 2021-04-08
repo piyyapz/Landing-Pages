@@ -1,3 +1,11 @@
+/* body */
+.body {
+    background-image: url(../image/a.png);
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+
 /* Navbar */
 .navbar {
     position: relative;
@@ -9,77 +17,38 @@
     font-size: 32px;
 }
 
-/* Jumbotron */
-.jumbotron {
-    background-image: url(../image/a.png);
-    background-size: cover;
-    height: 540px;
-    text-align: center;
-    position: relative;
-}
-
-.jumbotron .container {
-    z-index: 1;
-    position: relative;
-}
-.jumbotron::after {
-    content: '';
-    display: block;
-    width: 100%;
-    background-color: black;
-    position: absolute;
-    bottom: 0;
-}
-.jumbotron .display-4 {
-    
-    color: black;
-    margin-top: 150px;
-    font-weight: 200;
-    font-size: 32px;
-    margin-bottom: 30px;
-}
-
-.jumbotron .display-4 span {
-    font-weight: 500;
-}
 /* utility */
 .tombol {
     text-transform: uppercase;
     border-radius: 40px;
+    background-color: rgb(133, 213, 250);
 }
 
-
 /* Desktop version */
+
 @media (min-width: 992px) {
-    .navbar-brand, .nav-link  {
+.navbar-brand, .nav-link  {
         color: black !important;
-    }
-    .nav-link {
+}
+.nav-link {
         text-transform: uppercase;
         margin-right: 30px;
-    }
+}
 
-    .nav-link:hover::after {
-        content: '';
-        display: block;
-        border-bottom: 3px solid black;
-        width: 50%;
-        margin: auto;
-        padding-bottom: 5px;
-        margin-bottom: -8px;
-    }
- }
+.nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid black;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
 
- .jumbotron {
-     margin-top: -75px;
-     height: 640px;
- }
+/* home page */
 
- .jumbotron .display-4 {
-    font-size: 62px;
- }
- 
 /* about page */
+
 .avatar {
   vertical-align: middle;
   width: 200px;
@@ -87,8 +56,7 @@
   border-radius: 50%;
 }
 
-.jumbotron .display-4 {
-    
+.jumbotron-fluid .display-4 {
     color: black;
     margin-top: 150px;
     font-weight: 200;
@@ -96,25 +64,14 @@
     margin-bottom: 30px;
 }
 
+.navbar-brand{
+    font-family: viga;
+    font-size: 32px;
+
 /* portofolio page */
 
-.jumbotron .project {
-    
-    color: black;
+.jumbotron-fluid .project {
     margin-top: 150px;
-    font-weight: 200;
+    font-weight: 150px;
     font-size: 32px;
-    margin-bottom: 30px;
-/* collage page */
-
-
-
-/* contact */
-.jumbotron .list-inline {
-    
-    color: black;
-    margin-top: 150px;
-    font-weight: 200;
-    font-size: 32px;
-    margin-bottom: 30px;
-    background-color: rgb(168, 196, 190);
+    margin-bottom: 20px;
