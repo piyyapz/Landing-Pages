@@ -36,7 +36,6 @@
     margin-top: 150px;
     font-weight: 200;
     font-size: 32px;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     margin-bottom: 30px;
 }
 
@@ -63,7 +62,7 @@
     .nav-link:hover::after {
         content: '';
         display: block;
-        border-bottom: 3px solid #000080;
+        border-bottom: 3px solid black;
         width: 50%;
         margin: auto;
         padding-bottom: 5px;
@@ -79,3 +78,24 @@
  .jumbotron .display-4 {
     font-size: 62px;
  }
+ *Autumn page*/
+.about {
+    height: 100%;
+    min-height: 750px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background: url(../image/a.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.about-text{
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.myphoto {
+        border-radius: 100%;
+        margin-top: 50%;
+        margin-left: auto;
+        margin-right: auto;
+}
