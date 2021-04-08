@@ -82,10 +82,29 @@
 /* about page */
 .avatar {
   vertical-align: middle;
-  width: 1000px;
-  height: 1000px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
 }
+
+.jumbotron .display-4 {
+    
+    color: black;
+    margin-top: 150px;
+    font-weight: 200;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+/* portofolio page */
+
+.jumbotron .project {
+    
+    color: black;
+    margin-top: 150px;
+    font-weight: 200;
+    font-size: 32px;
+    margin-bottom: 30px;
 /* collage page */
 
 
@@ -98,3 +117,4 @@
     font-weight: 200;
     font-size: 32px;
     margin-bottom: 30px;
+    background-color: rgb(168, 196, 190);
