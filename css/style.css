@@ -78,24 +78,8 @@
  .jumbotron .display-4 {
     font-size: 62px;
  }
- *Autumn page*/
-.about {
-    height: 100%;
-    min-height: 750px;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    background: url(../image/a.png) no-repeat center center fixed;
-    background-size: cover;
-}
+ 
+/* about page */
 
-.about-text{
-    padding-top: 20%;
-    padding-bottom: 20%;
-}
-
-.myphoto {
-        border-radius: 100%;
-        margin-top: 50%;
-        margin-left: auto;
-        margin-right: auto;
-}
+img {
+    border-radius: 50%;
